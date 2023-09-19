@@ -1,0 +1,178 @@
+.home-hero {
+  background-image: url(../images/homehero865px.png);
+  background-repeat: no-repeat;
+  height: 520px;
+  max-width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+
+  h1 {
+    width: 100%;
+    margin-top: 90px;
+    text-align: center;
+    font-family: $UniB;
+    font-size: 150px;
+    color: #fff;
+    span {
+      color: $site-green;
+    }
+  }
+  h2{
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: -30px;
+    font-size: 30px;
+  }
+
+  a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-family: $UniB;
+    padding: 15px 40px;
+    border: 3px solid #fff;
+    background-color: #2d873c;
+    border-radius: 40px;
+    transition: ease 0.2s;
+    &:hover {
+      color: #2d873c;
+      background-color: #fff;
+      border: 3px solid #2d873c;
+    }
+  }
+}
+
+.mealplans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: -40px;
+        text-align: center;
+        font-family: $UniB;
+        font-size: 80px;
+        color: #fff;
+        span {
+          color: $site-green;
+        }
+      }
+}
+
+.mealplans-wrapper{
+    height: 2100px;
+    max-width: 100%;
+}
+
+.mealplans-row{
+    height: 2100px;
+}
+.mealplans-box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 50px;
+  height: 2200px;
+  max-width: 1440px;
+  margin: 0 auto;
+  .mealplans-box {
+    height: 440px;
+    width: 300px;
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818;
+    cursor: pointer;
+    color: #fff;
+    transition: ease 0.2s;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.35);
+    img{
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+    .mealplan-desc{
+        margin-top: 10px;
+       width: 80%; 
+       h3{
+        font-size: 20px;
+       }
+       p{
+        font-size: 18px;
+       }
+    }
+    a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-family: $UniB;
+        padding: 12px 36px;
+        border: 3px solid #fff;
+        background-color: #2d873c;
+        border-radius: 40px;
+        transition: ease 0.1s;
+        opacity: 0;
+        margin-top: 10px;
+        &:hover {
+          color: #2d873c;
+          background-color: #fff;
+          border: 3px solid #2d873c;
+          transition: ease 0.2s;
+        }
+      }
+
+      span{
+        margin-top: 15px;
+        opacity: 0;
+      }
+   &:hover{
+    
+    height: 530px;
+    a{
+        opacity: 1;
+        transition: ease 0.6s;
+    }
+    span{
+        opacity: 1;
+        transition: ease 0.6s;
+    }
+   }
+  }
+}
+
+
+
+.savings-banner{
+    max-width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: $site-green;
+    h2{
+        color: #fff;
+        text-align: center;
+        margin-top: 38px;
+        font-size: 42px;
+    }
+    p{
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+        margin-top: -18px;
+    }
+    h1{
+        margin-top: 30px;
+        font-size: 80px;
+        margin: 20px 30px 0 30px;
+        font-family: $UniB;
+        color: #399148;
+    }
+}
